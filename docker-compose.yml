@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  dev:
+    build: .
+    tty: true
+    stdin_open: true
+    command: "/bin/zsh"
